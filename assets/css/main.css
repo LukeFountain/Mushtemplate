@@ -1,11 +1,24 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,300italic,400italic");
 
-/*
-	Telemetry by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+#two {
+	padding: 0;
+	height: 500px;
+	background : linear-gradient(90deg, rgba(4,12,25,1) 0%, rgba(4,22,42,1) 90%);
+	}
+
+#timelapse {
+	height: 100%;
+	background-image: url('https://media.giphy.com/media/75Py7BSVy28LarrdlA/giphy.gif');	
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 50% 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+			
+	}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -4835,6 +4848,11 @@ input, select, textarea {
 				min-height: 0;
 			}
 
+			#two {
+				padding: 0;
+				height: 400px;
+			}
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -4882,6 +4900,15 @@ input, select, textarea {
 
 			#banner {
 				padding: 4em 0 1em 0 ;
+			}
+
+			#two {
+				padding: 0;
+				height: 200px;
+			}
+			
+			#timelapse{
+				background-size: 100%;
 			}
 
 		}
@@ -5209,25 +5236,30 @@ input, select, textarea {
 			width: 100%;	
 		}
 		
-		#two {
-			padding: 0;
-			height: 400px;
+		
+
+		
+		#surveyText {
+			background-color: rgba(4, 12, 25, 0.6);
+			padding: 1% 1%;
+			border: 0;
+			border-radius: 5px;
 		}
 
-		#timelapse {
-			height: 100%;
-			background-image: url('https://media.giphy.com/media/75Py7BSVy28LarrdlA/giphy.gif');
-			background-color: rgb(6, 16, 33);
-			background-repeat: no-repeat;
-			background-size: 80%;
-			background-position: 50% 5%;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
+		#surveyText h2, #surveyText h3 {
+			color: white;
+			font-weight: 800;
+			text-align: center;
 			
 		}
-		
-		#surveyText h2, #surveyText h3 {
-			color: #ffffff;
+
+		.wrapperEffectStriped{
+						
+			text-decoration: none;
+	}
+
+		.wrapperEffectStriped:hover{
+
+				text-decoration: underline white;
 		}
+		

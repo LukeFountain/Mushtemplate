@@ -10,3 +10,6 @@ experiment with font weight
 TODAY
 images - correct sources whether new or edited - done 
 make sure all links are working (not including survey) - done 
+
+NOTES for Josh:
+Add a "Click Here" for the survey link text.

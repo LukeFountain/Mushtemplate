@@ -42,14 +42,14 @@
 
 			on = function() {
 
-				$t.css('background-position', 'center 100%, center 100%, center 0px');
+				$t.css('background-position', 'top 100%, top 100%, top 0px');
 
 				$window
 					.on('scroll._parallax', function() {
 
 						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
 
-						$t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
+						$t.css('background-position', 'top ' + (pos * (-1 * intensity)) + 'px');
 
 					});
 
@@ -73,7 +73,7 @@
 		$window
 			.off('load._parallax resize._parallax')
 			.on('load._parallax resize._parallax', function() {
-				$window.trigger('scroll');
+				$window.trigger('resize').trigger('scroll');
 			});
 
 		return $(this);

@@ -4666,7 +4666,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-color: #ff887b;
+		background-color: black;
 		color: rgba(255, 255, 255, 0.75);
 		padding: 10em 0 6em 0 ;
 		display: -moz-flex;
@@ -4682,10 +4682,11 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		background-attachment: fixed;
-		background-image: url("../../images/alt-mush-background.jpg");
-		background-position: bottom left;
+		background-image: url("../../images/edited-background.png");
+		/* background-position: bottom left; */
 		background-size: cover;
-		border-top: solid 10px #ff887b;
+		background-repeat: no-repeat;
+		
 		min-height: 75vh;
 		position: relative;
 		text-align: center;

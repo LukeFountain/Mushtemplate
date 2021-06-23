@@ -11,5 +11,11 @@ TODAY
 images - correct sources whether new or edited - done 
 make sure all links are working (not including survey) - done 
 
+Next draft: 
+
+    resize assets to optimize load time
+    
+
+
 NOTES for Josh:
 Add a "Click Here" for the survey link text.

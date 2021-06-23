@@ -73,7 +73,7 @@
 		$window
 			.off('load._parallax resize._parallax')
 			.on('load._parallax resize._parallax', function() {
-				$window.trigger('resize').trigger('scroll');
+				$window.trigger('scroll');
 			});
 
 		return $(this);
@@ -90,11 +90,13 @@
 		});
 
 	// Play initial animations on page load.
-		$window.on('DOMContentLoaded', function() {
+		$window
+		.on('DOMContentLoaded', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
-		});
+		})
+		
 
 	// Scrolly.
 		$('.scrolly').scrolly();

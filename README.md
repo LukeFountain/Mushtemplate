@@ -72,8 +72,8 @@ Find Us Section
 
 Footer
 
-Where do the form submission go? Need to match sure we capture emails or offer check box to join mailing list.
-    netlify allows email notification for form submissions, and you can export them to .CSV 
+## Where do the form submission go? Need to match sure we capture emails or offer check box to join mailing list.
+  ##  netlify allows email notification for form submissions, and you can export them to .CSV 
 
 Can we add an emailing list input? Tie to survey monkey (better option?)
         

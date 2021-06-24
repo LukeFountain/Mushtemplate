@@ -5,20 +5,23 @@
 	padding: 0;
 	height: 500px;
 	background : linear-gradient(90deg, rgba(4,12,25,1) 0%, rgba(4,22,42,1) 90%);
+	position: relative;
+	text-align: center;
 	}
 
-#timelapse {
+.timelapse {
+	
 	height: 100%;
-	background-image: url('https://media.giphy.com/media/75Py7BSVy28LarrdlA/giphy.gif');
+	/* background-image: url('/MushTemplate/images/optimized-timelapse2.gif');	
 	background-repeat: no-repeat;
 	background-size: 50%;
 	background-position: 50% 5%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: column; */
 			
-	}
+	} 
 
 	.store-btn-container {
 		display: flex;
@@ -5250,6 +5253,10 @@ input, select, textarea {
 			padding: 1% 1%;
 			border: 0;
 			border-radius: 5px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
 		}
 
 		#surveyText h2, #surveyText h3 {
@@ -5259,8 +5266,12 @@ input, select, textarea {
 			
 		}
 
+		#surveyText:hover {
+			text-decoration: underline white;
+		}
+
 		.wrapperEffectStriped{
-						
+			
 			text-decoration: none;
 	}
 

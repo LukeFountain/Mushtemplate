@@ -5234,7 +5234,7 @@ input, select, textarea {
 		}
 
 
-		@media screen and (max-width: 375px) {
+		@media screen and (max-width: 400px) {
 			
 			#surveyText h2, #surveyText h3{
 				margin-bottom: 10.5px;

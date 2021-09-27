@@ -3369,6 +3369,15 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+
+			/* #banner h1{
+				max-width: 14ch;
+				margin: auto;
+			} */
+
+
+
+
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
